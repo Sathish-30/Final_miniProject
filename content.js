@@ -56,7 +56,7 @@ let containerAccessories = document.getElementById("containerAccessories");
 
 let httpRequest = new XMLHttpRequest();
 
-httpRequest.onreadystatechange = function() {
+httpRequest.onreadystatechange = function () {
   if (this.readyState === 4) {
     if (this.status == 200) {
       // console.log('call successful');
